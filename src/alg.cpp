@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include <cctype>
+#include <string>
 #include <vector>
 #include <algorithm>
 #include <utility>
