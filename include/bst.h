@@ -40,7 +40,7 @@ class BST {
   }
 
   int height(Node* node) const {
-    if (!node) return 0;
+    if (!node) return -1;
     return 1 + std::max(height(node->left), height(node->right));
   }
 
